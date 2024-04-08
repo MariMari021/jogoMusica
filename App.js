@@ -11,16 +11,16 @@ const musicas = [
     respostaCorreta: 'Tom Jobim'
   },
   {
-    nome: 'Wave',
-    arquivo: require('./assets/wave.mp3'),
-    alternativas: ['Tom Jobim', 'Vinicius de Moraes', 'João Gilberto'],
-    respostaCorreta: 'Tom Jobim'
+    nome: 'Lança Perfume',
+    arquivo: require('./assets/lanca_perfume.mp3'),
+    alternativas: ['Rita Lee', 'Caetano Veloso', 'Gal Costa'],
+    respostaCorreta: 'Rita Lee'
   },
   {
-    nome: 'Chega de Saudade',
-    arquivo: require('./assets/chega_de_saudade.mp3'),
-    alternativas: ['Tom Jobim', 'Vinicius de Moraes', 'João Gilberto'],
-    respostaCorreta: 'Tom Jobim'
+    nome: 'Não Quero Dinheiro (Só Quero Amar)',
+    arquivo: require('./assets/nao_quero_dinheiro.mp3'),
+    alternativas: ['Tim Maia', 'Jorge Ben Jor', 'Gilberto Gil'],
+    respostaCorreta: 'Tim Maia'
   },
   {
     nome: 'Águas de Março',
@@ -29,10 +29,10 @@ const musicas = [
     respostaCorreta: 'Tom Jobim'
   },
   {
-    nome: 'Construção',
-    arquivo: require('./assets/construcao.mp3'),
-    alternativas: ['Chico Buarque', 'Caetano Veloso', 'Gilberto Gil'],
-    respostaCorreta: 'Chico Buarque'
+    nome: 'Meu Ébano',
+    arquivo: require('./assets/meu_ebano.mp3'),
+    alternativas: ['Alcione', 'Maria Bethânia', 'Elza Soares'],
+    respostaCorreta: 'Alcione'
   },
   {
     nome: 'Eu Sei Que Vou Te Amar',
@@ -41,10 +41,10 @@ const musicas = [
     respostaCorreta: 'Tom Jobim'
   },
   {
-    nome: 'O Que Será (À Flor da Pele)',
-    arquivo: require('./assets/o_que_sera.mp3'),
-    alternativas: ['Chico Buarque', 'Caetano Veloso', 'Gilberto Gil'],
-    respostaCorreta: 'Chico Buarque'
+    nome: 'Maria, Maria',
+    arquivo: require('./assets/maria_maria.mp3'),
+    alternativas: ['Elis Regina', 'Milton Nascimento', 'Chico Buarque'],
+    respostaCorreta: 'Elis Regina'
   },
   {
     nome: 'Trem das Onze',
@@ -59,10 +59,10 @@ const musicas = [
     respostaCorreta: 'Luiz Gonzaga'
   },
   {
-    nome: 'Carinhoso',
-    arquivo: require('./assets/carinhoso.mp3'),
-    alternativas: ['Pixinguinha', 'Cartola', 'Tom Jobim'],
-    respostaCorreta: 'Pixinguinha'
+    nome: 'O Descobridor dos Sete Mares',
+    arquivo: require('./assets/o_descobridor_dos_sete_mares.mp3'),
+    alternativas: ['Tim Maia', 'Lulu Santos', 'Gilberto Gil'],
+    respostaCorreta: 'Tim Maia'
   },
   {
     nome: 'Aquarela do Brasil',
@@ -71,10 +71,10 @@ const musicas = [
     respostaCorreta: 'Ary Barroso'
   },
   {
-    nome: 'Roda Viva',
-    arquivo: require('./assets/roda_viva.mp3'),
-    alternativas: ['Chico Buarque', 'Caetano Veloso', 'Gilberto Gil'],
-    respostaCorreta: 'Chico Buarque'
+    nome: 'Caderno',
+    arquivo: require('./assets/caderno.mp3'),
+    alternativas: ['Toquinho', 'Vinicius de Moraes', 'Chico Buarque'],
+    respostaCorreta: 'Toquinho'
   },
   {
     nome: 'O Bêbado e a Equilibrista',
@@ -83,18 +83,27 @@ const musicas = [
     respostaCorreta: 'João Bosco'
   },
   {
-    nome: 'Rosa',
-    arquivo: require('./assets/rosa.mp3'),
-    alternativas: ['Pixinguinha', 'Tom Jobim', 'Chico Buarque'],
-    respostaCorreta: 'Pixinguinha'
+    nome: 'Sandra Rosa Madalena (A Cigana)',
+    arquivo: require('./assets/sandra_rosa_madalena.mp3'),
+    alternativas: ['Sidney Magal', 'Odair José', 'Amado Batista'],
+    respostaCorreta: 'Sidney Magal'
   },
   {
-    nome: 'Canta, Canta Mais',
-    arquivo: require('./assets/canta_canta_mais.mp3'),
-    alternativas: ['Dorival Caymmi', 'Vinicius de Moraes', 'Elis Regina'],
-    respostaCorreta: 'Dorival Caymmi'
+    nome: 'Adocica',
+    arquivo: require('./assets/adocica.mp3'),
+    alternativas: ['Beto Barbosa', 'Tchakabum', 'É o Tchan'],
+    respostaCorreta: 'Beto Barbosa'
   }
 ];
+
+
+
+
+
+
+
+
+
 
 
 export default function App() {
